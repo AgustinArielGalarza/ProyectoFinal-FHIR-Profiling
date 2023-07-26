@@ -1,0 +1,27 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='PetTypeCoat' %}
+
+{% include fragment-pagebegin.html %}
+<div style="counter-reset: section 5" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='PetTypeCoat' active='mapping' %}
+
+<a name="root"> </a>
+<h2 id="root">{{modelType}}: PetTypeCoat - Mappings</h2>
+{% include fragment-simpletable.html %}
+
+<p>Mappings for the PetTypeCoat {{modelType | downcase }}.</p>
+
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='StructureDefinition' id='PetTypeCoat' %}
+
+  {%include StructureDefinition-PetTypeCoat-maps.xhtml%}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='StructureDefinition' id='PetTypeCoat' %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

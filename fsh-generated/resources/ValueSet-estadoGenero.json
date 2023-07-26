@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EstadoGenero",
+  "id": "estadoGenero",
+  "title": "Tipos de estados del genero",
+  "description": "Listado de estados del genero",
+  "url": "http://example.org/ValueSet/estadoGenero",
+  "version": "1.0.0",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.com/fhir/CodeSystem/animal-status"
+      }
+    ]
+  }
+}

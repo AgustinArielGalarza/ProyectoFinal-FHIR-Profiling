@@ -1,0 +1,29 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Animal_Status",
+  "id": "animal-status",
+  "description": "A code system for representing animal status.",
+  "url": "http://example.com/fhir/CodeSystem/animal-status",
+  "concept": [
+    {
+      "code": "castrado",
+      "display": "Castrado",
+      "definition": "Animal castrated"
+    },
+    {
+      "code": "intacto",
+      "display": "Intacto",
+      "definition": "Animal not castrated or sterilized"
+    },
+    {
+      "code": "esterilizado",
+      "display": "Esterilizado",
+      "definition": "Animal sterilized"
+    }
+  ],
+  "version": "1.0.0",
+  "publisher": "Your Organization",
+  "count": 3
+}

@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/animal-status> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "animal-status"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/CodeSystem/animal-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">castrado<a name=\"animal-status-castrado\"> </a></td><td>Castrado</td><td>Animal castrated</td></tr><tr><td style=\"white-space:nowrap\">intacto<a name=\"animal-status-intacto\"> </a></td><td>Intacto</td><td>Animal not castrated or sterilized</td></tr><tr><td style=\"white-space:nowrap\">esterilizado<a name=\"animal-status-esterilizado\"> </a></td><td>Esterilizado</td><td>Animal sterilized</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.com/fhir/CodeSystem/animal-status"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Animal_Status"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-07-17T16:02:45-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "A code system for representing animal status."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "castrado" ] ;
+     fhir:display [ fhir:v "Castrado" ] ;
+     fhir:definition [ fhir:v "Animal castrated" ]
+  ] [
+     fhir:code [ fhir:v "intacto" ] ;
+     fhir:display [ fhir:v "Intacto" ] ;
+     fhir:definition [ fhir:v "Animal not castrated or sterilized" ]
+  ] [
+     fhir:code [ fhir:v "esterilizado" ] ;
+     fhir:display [ fhir:v "Esterilizado" ] ;
+     fhir:definition [ fhir:v "Animal sterilized" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

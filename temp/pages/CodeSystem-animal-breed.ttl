@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/animal-breed> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "animal-breed"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/CodeSystem/animal-breed</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">labrador-retriever<a name=\"animal-breed-labrador-retriever\"> </a></td><td>Labrador Retriever</td><td>A medium-large breed of retriever gun dog.</td></tr><tr><td style=\"white-space:nowrap\">siamese<a name=\"animal-breed-siamese\"> </a></td><td>Siamese</td><td>A breed of domestic cat originating from Thailand.</td></tr><tr><td style=\"white-space:nowrap\">persian<a name=\"animal-breed-persian\"> </a></td><td>Persian</td><td>A long-haired breed of cat with a distinctive round face.</td></tr><tr><td style=\"white-space:nowrap\">poodle<a name=\"animal-breed-poodle\"> </a></td><td>Poodle</td><td>A group of formal dog breeds, including Standard Poodle, Miniature Poodle, and Toy Poodle.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.com/fhir/CodeSystem/animal-breed"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Animal_Breed"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-07-17T16:02:45-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "A code system for representing animal breeds."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "labrador-retriever" ] ;
+     fhir:display [ fhir:v "Labrador Retriever" ] ;
+     fhir:definition [ fhir:v "A medium-large breed of retriever gun dog." ]
+  ] [
+     fhir:code [ fhir:v "siamese" ] ;
+     fhir:display [ fhir:v "Siamese" ] ;
+     fhir:definition [ fhir:v "A breed of domestic cat originating from Thailand." ]
+  ] [
+     fhir:code [ fhir:v "persian" ] ;
+     fhir:display [ fhir:v "Persian" ] ;
+     fhir:definition [ fhir:v "A long-haired breed of cat with a distinctive round face." ]
+  ] [
+     fhir:code [ fhir:v "poodle" ] ;
+     fhir:display [ fhir:v "Poodle" ] ;
+     fhir:definition [ fhir:v "A group of formal dog breeds, including Standard Poodle, Miniature Poodle, and Toy Poodle." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

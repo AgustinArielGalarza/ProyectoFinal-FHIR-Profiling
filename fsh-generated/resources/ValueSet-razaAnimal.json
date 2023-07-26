@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "RazaAnimal",
+  "id": "razaAnimal",
+  "title": "Tipos de raza animal",
+  "description": "Listado de raza animal",
+  "url": "http://example.org/ValueSet/razaAnimal",
+  "version": "1.0.0",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.com/fhir/CodeSystem/animal-breed"
+      }
+    ]
+  }
+}

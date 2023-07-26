@@ -1,0 +1,183 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.example",
+  "url": "http://example.org/ImplementationGuide/fhir.example",
+  "version": "0.1.0",
+  "name": "proyectoFinal",
+  "status": "draft",
+  "publisher": "Example Publisher",
+  "contact": [
+    {
+      "name": "Example Publisher",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.org/example-publisher"
+        }
+      ]
+    }
+  ],
+  "packageId": "fhir.example",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "CodeSystem/animal-breed"
+        },
+        "name": "Animal_Breed",
+        "description": "A code system for representing animal breeds.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/animal-species"
+        },
+        "name": "Animal_Species",
+        "description": "A code system for representing animal species.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/animal-status"
+        },
+        "name": "Animal_Status",
+        "description": "A code system for representing animal status.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/EspecieAnimal"
+        },
+        "name": "EspecieAnimal",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/EstadoDelGenero"
+        },
+        "name": "EstadoDelGenero",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/MyComposition"
+        },
+        "name": "MyComposition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/MyPractitioner"
+        },
+        "name": "MyPractitioner",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetOrigin"
+        },
+        "name": "PetOrigin",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetOwnerRelatedPerson"
+        },
+        "name": "PetOwnerRelatedPerson",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetParticularSigns"
+        },
+        "name": "PetParticularSigns",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetPatient"
+        },
+        "name": "PetPatient",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetTypeCoat"
+        },
+        "name": "PetTypeCoat",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetWeight"
+        },
+        "name": "PetWeight",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetZootechnicalPurpose"
+        },
+        "name": "PetZootechnicalPurpose",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/RazaAnimal"
+        },
+        "name": "RazaAnimal",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/especieAnimal"
+        },
+        "name": "Tipos de Especies Animales",
+        "description": "Listado de Especies Animales",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/estadoGenero"
+        },
+        "name": "Tipos de estados del genero",
+        "description": "Listado de estados del genero",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/razaAnimal"
+        },
+        "name": "Tipos de raza animal",
+        "description": "Listado de raza animal",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/VetOrganization"
+        },
+        "name": "VetOrganization",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2023+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

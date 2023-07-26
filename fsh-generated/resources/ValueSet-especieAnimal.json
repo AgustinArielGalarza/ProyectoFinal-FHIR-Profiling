@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "EspecieAnimal",
+  "id": "especieAnimal",
+  "title": "Tipos de Especies Animales",
+  "description": "Listado de Especies Animales",
+  "url": "http://example.org/ValueSet/especieAnimal",
+  "version": "1.0.0",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.com/fhir/CodeSystem/animal-species"
+      }
+    ]
+  }
+}

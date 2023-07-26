@@ -1,0 +1,165 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "a690f5d3-5ab2-464e-924d-9c2521536ef3",
+  "meta" : {
+    "lastUpdated" : "2023-07-17T16:02:45.878-03:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.org/ValueSet/especieAnimal",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-animal-species.html\">Animal_Species v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-species-canis-lupus-familiaris\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-species.html#animal-species-canis-lupus-familiaris\">canis-lupus-familiaris</a></td><td>http://example.com/fhir/CodeSystem/animal-species</td><td>Canis lupus familiaris</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-species-felis-catus\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-species.html#animal-species-felis-catus\">felis-catus</a></td><td>http://example.com/fhir/CodeSystem/animal-species</td><td>Felis catus</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-species-equus-caballus\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-species.html#animal-species-equus-caballus\">equus-caballus</a></td><td>http://example.com/fhir/CodeSystem/animal-species</td><td>Equus caballus</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-species-bos-taurus\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-species.html#animal-species-bos-taurus\">bos-taurus</a></td><td>http://example.com/fhir/CodeSystem/animal-species</td><td>Bos taurus</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-species-ovis-aries\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-species.html#animal-species-ovis-aries\">ovis-aries</a></td><td>http://example.com/fhir/CodeSystem/animal-species</td><td>Ovis aries</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-species-sus-scrofa-domestica\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-species.html#animal-species-sus-scrofa-domestica\">sus-scrofa-domestica</a></td><td>http://example.com/fhir/CodeSystem/animal-species</td><td>Sus scrofa domestica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-species-gallus-gallus-domesticus\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-species.html#animal-species-gallus-gallus-domesticus\">gallus-gallus-domesticus</a></td><td>http://example.com/fhir/CodeSystem/animal-species</td><td>Gallus gallus domesticus</td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/especieAnimal",
+      "version" : "0.1.0",
+      "name" : "EspecieAnimal",
+      "title" : "Tipos de Especies Animales",
+      "status" : "active",
+      "date" : "2023-07-17T16:02:45-03:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:20cc8e31-9ad3-4f4e-b5f7-a72cf897fcea",
+        "timestamp" : "2023-07-17T16:04:52-03:00",
+        "total" : 7,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.com/fhir/CodeSystem/animal-species|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.com/fhir/CodeSystem/animal-species",
+          "code" : "canis-lupus-familiaris",
+          "display" : "Canis lupus familiaris"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-species",
+          "code" : "felis-catus",
+          "display" : "Felis catus"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-species",
+          "code" : "equus-caballus",
+          "display" : "Equus caballus"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-species",
+          "code" : "bos-taurus",
+          "display" : "Bos taurus"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-species",
+          "code" : "ovis-aries",
+          "display" : "Ovis aries"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-species",
+          "code" : "sus-scrofa-domestica",
+          "display" : "Sus scrofa domestica"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-species",
+          "code" : "gallus-gallus-domesticus",
+          "display" : "Gallus gallus domesticus"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/estadoGenero",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-animal-status.html\">Animal_Status v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-status-castrado\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-status.html#animal-status-castrado\">castrado</a></td><td>http://example.com/fhir/CodeSystem/animal-status</td><td>Castrado</td><td><div><p>Animal castrated</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-status-intacto\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-status.html#animal-status-intacto\">intacto</a></td><td>http://example.com/fhir/CodeSystem/animal-status</td><td>Intacto</td><td><div><p>Animal not castrated or sterilized</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-status-esterilizado\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-status.html#animal-status-esterilizado\">esterilizado</a></td><td>http://example.com/fhir/CodeSystem/animal-status</td><td>Esterilizado</td><td><div><p>Animal sterilized</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/estadoGenero",
+      "version" : "0.1.0",
+      "name" : "EstadoGenero",
+      "title" : "Tipos de estados del genero",
+      "status" : "active",
+      "date" : "2023-07-17T16:02:45-03:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:512d55b1-06f8-4971-a6d2-3eedf98799be",
+        "timestamp" : "2023-07-17T16:04:52-03:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.com/fhir/CodeSystem/animal-status|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.com/fhir/CodeSystem/animal-status",
+          "code" : "castrado",
+          "display" : "Castrado"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-status",
+          "code" : "intacto",
+          "display" : "Intacto"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-status",
+          "code" : "esterilizado",
+          "display" : "Esterilizado"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/razaAnimal",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-animal-breed.html\">Animal_Breed v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-breed-labrador-retriever\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-breed.html#animal-breed-labrador-retriever\">labrador-retriever</a></td><td>http://example.com/fhir/CodeSystem/animal-breed</td><td>Labrador Retriever</td><td><div><p>A medium-large breed of retriever gun dog.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-breed-siamese\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-breed.html#animal-breed-siamese\">siamese</a></td><td>http://example.com/fhir/CodeSystem/animal-breed</td><td>Siamese</td><td><div><p>A breed of domestic cat originating from Thailand.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-breed-persian\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-breed.html#animal-breed-persian\">persian</a></td><td>http://example.com/fhir/CodeSystem/animal-breed</td><td>Persian</td><td><div><p>A long-haired breed of cat with a distinctive round face.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-CodeSystem-animal-breed-poodle\"> </a>\u00a0\u00a0<a href=\"CodeSystem-animal-breed.html#animal-breed-poodle\">poodle</a></td><td>http://example.com/fhir/CodeSystem/animal-breed</td><td>Poodle</td><td><div><p>A group of formal dog breeds, including Standard Poodle, Miniature Poodle, and Toy Poodle.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/razaAnimal",
+      "version" : "0.1.0",
+      "name" : "RazaAnimal",
+      "title" : "Tipos de raza animal",
+      "status" : "active",
+      "date" : "2023-07-17T16:02:45-03:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:03647da4-eafb-4fcb-92b9-0df66b6bebb7",
+        "timestamp" : "2023-07-17T16:04:52-03:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.com/fhir/CodeSystem/animal-breed|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.com/fhir/CodeSystem/animal-breed",
+          "code" : "labrador-retriever",
+          "display" : "Labrador Retriever"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-breed",
+          "code" : "siamese",
+          "display" : "Siamese"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-breed",
+          "code" : "persian",
+          "display" : "Persian"
+        },
+        {
+          "system" : "http://example.com/fhir/CodeSystem/animal-breed",
+          "code" : "poodle",
+          "display" : "Poodle"
+        }]
+      }
+    }
+  }]
+}

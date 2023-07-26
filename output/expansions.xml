@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="a690f5d3-5ab2-464e-924d-9c2521536ef3"/>
+  <meta>
+    <lastUpdated value="2023-07-17T16:02:45.878-03:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/especieAnimal"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-animal-species.html">Animal_Species v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-species-canis-lupus-familiaris"> </a>  
+                  <a href="CodeSystem-animal-species.html#animal-species-canis-lupus-familiaris">canis-lupus-familiaris</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-species</td>
+                <td>Canis lupus familiaris</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-species-felis-catus"> </a>  
+                  <a href="CodeSystem-animal-species.html#animal-species-felis-catus">felis-catus</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-species</td>
+                <td>Felis catus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-species-equus-caballus"> </a>  
+                  <a href="CodeSystem-animal-species.html#animal-species-equus-caballus">equus-caballus</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-species</td>
+                <td>Equus caballus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-species-bos-taurus"> </a>  
+                  <a href="CodeSystem-animal-species.html#animal-species-bos-taurus">bos-taurus</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-species</td>
+                <td>Bos taurus</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-species-ovis-aries"> </a>  
+                  <a href="CodeSystem-animal-species.html#animal-species-ovis-aries">ovis-aries</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-species</td>
+                <td>Ovis aries</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-species-sus-scrofa-domestica"> </a>  
+                  <a href="CodeSystem-animal-species.html#animal-species-sus-scrofa-domestica">sus-scrofa-domestica</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-species</td>
+                <td>Sus scrofa domestica</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-species-gallus-gallus-domesticus"> </a>  
+                  <a href="CodeSystem-animal-species.html#animal-species-gallus-gallus-domesticus">gallus-gallus-domesticus</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-species</td>
+                <td>Gallus gallus domesticus</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/especieAnimal"/>
+        <version value="0.1.0"/>
+        <name value="EspecieAnimal"/>
+        <title value="Tipos de Especies Animales"/>
+        <status value="active"/>
+        <date value="2023-07-17T16:02:45-03:00"/>
+        <expansion>
+          <identifier value="urn:uuid:20cc8e31-9ad3-4f4e-b5f7-a72cf897fcea"/>
+          <timestamp value="2023-07-17T16:04:52-03:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.com/fhir/CodeSystem/animal-species|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-species"/>
+            <code value="canis-lupus-familiaris"/>
+            <display value="Canis lupus familiaris"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-species"/>
+            <code value="felis-catus"/>
+            <display value="Felis catus"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-species"/>
+            <code value="equus-caballus"/>
+            <display value="Equus caballus"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-species"/>
+            <code value="bos-taurus"/>
+            <display value="Bos taurus"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-species"/>
+            <code value="ovis-aries"/>
+            <display value="Ovis aries"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-species"/>
+            <code value="sus-scrofa-domestica"/>
+            <display value="Sus scrofa domestica"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-species"/>
+            <code value="gallus-gallus-domesticus"/>
+            <display value="Gallus gallus domesticus"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/estadoGenero"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-animal-status.html">Animal_Status v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-status-castrado"> </a>  
+                  <a href="CodeSystem-animal-status.html#animal-status-castrado">castrado</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-status</td>
+                <td>Castrado</td>
+                <td>
+                  <div>
+                    <p>Animal castrated</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-status-intacto"> </a>  
+                  <a href="CodeSystem-animal-status.html#animal-status-intacto">intacto</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-status</td>
+                <td>Intacto</td>
+                <td>
+                  <div>
+                    <p>Animal not castrated or sterilized</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-status-esterilizado"> </a>  
+                  <a href="CodeSystem-animal-status.html#animal-status-esterilizado">esterilizado</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-status</td>
+                <td>Esterilizado</td>
+                <td>
+                  <div>
+                    <p>Animal sterilized</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/estadoGenero"/>
+        <version value="0.1.0"/>
+        <name value="EstadoGenero"/>
+        <title value="Tipos de estados del genero"/>
+        <status value="active"/>
+        <date value="2023-07-17T16:02:45-03:00"/>
+        <expansion>
+          <identifier value="urn:uuid:512d55b1-06f8-4971-a6d2-3eedf98799be"/>
+          <timestamp value="2023-07-17T16:04:52-03:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.com/fhir/CodeSystem/animal-status|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-status"/>
+            <code value="castrado"/>
+            <display value="Castrado"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-status"/>
+            <code value="intacto"/>
+            <display value="Intacto"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-status"/>
+            <code value="esterilizado"/>
+            <display value="Esterilizado"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/razaAnimal"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-animal-breed.html">Animal_Breed v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-breed-labrador-retriever"> </a>  
+                  <a href="CodeSystem-animal-breed.html#animal-breed-labrador-retriever">labrador-retriever</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-breed</td>
+                <td>Labrador Retriever</td>
+                <td>
+                  <div>
+                    <p>A medium-large breed of retriever gun dog.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-breed-siamese"> </a>  
+                  <a href="CodeSystem-animal-breed.html#animal-breed-siamese">siamese</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-breed</td>
+                <td>Siamese</td>
+                <td>
+                  <div>
+                    <p>A breed of domestic cat originating from Thailand.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-breed-persian"> </a>  
+                  <a href="CodeSystem-animal-breed.html#animal-breed-persian">persian</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-breed</td>
+                <td>Persian</td>
+                <td>
+                  <div>
+                    <p>A long-haired breed of cat with a distinctive round face.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.com-fhir-CodeSystem-animal-breed-poodle"> </a>  
+                  <a href="CodeSystem-animal-breed.html#animal-breed-poodle">poodle</a>
+                </td>
+                <td>http://example.com/fhir/CodeSystem/animal-breed</td>
+                <td>Poodle</td>
+                <td>
+                  <div>
+                    <p>A group of formal dog breeds, including Standard Poodle, Miniature Poodle, and Toy Poodle.</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/razaAnimal"/>
+        <version value="0.1.0"/>
+        <name value="RazaAnimal"/>
+        <title value="Tipos de raza animal"/>
+        <status value="active"/>
+        <date value="2023-07-17T16:02:45-03:00"/>
+        <expansion>
+          <identifier value="urn:uuid:03647da4-eafb-4fcb-92b9-0df66b6bebb7"/>
+          <timestamp value="2023-07-17T16:04:52-03:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.com/fhir/CodeSystem/animal-breed|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-breed"/>
+            <code value="labrador-retriever"/>
+            <display value="Labrador Retriever"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-breed"/>
+            <code value="siamese"/>
+            <display value="Siamese"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-breed"/>
+            <code value="persian"/>
+            <display value="Persian"/>
+          </contains>
+          <contains>
+            <system value="http://example.com/fhir/CodeSystem/animal-breed"/>
+            <code value="poodle"/>
+            <display value="Poodle"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

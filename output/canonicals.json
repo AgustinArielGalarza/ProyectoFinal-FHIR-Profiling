@@ -1,0 +1,142 @@
+[
+  {
+    "id" : "animal-breed",
+    "type" : "CodeSystem",
+    "url" : "http://example.com/fhir/CodeSystem/animal-breed",
+    "version" : "0.1.0",
+    "name" : "Animal_Breed"
+  },
+  {
+    "id" : "animal-species",
+    "type" : "CodeSystem",
+    "url" : "http://example.com/fhir/CodeSystem/animal-species",
+    "version" : "0.1.0",
+    "name" : "Animal_Species"
+  },
+  {
+    "id" : "animal-status",
+    "type" : "CodeSystem",
+    "url" : "http://example.com/fhir/CodeSystem/animal-status",
+    "version" : "0.1.0",
+    "name" : "Animal_Status"
+  },
+  {
+    "id" : "fhir.example",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/fhir.example",
+    "version" : "0.1.0",
+    "name" : "proyectoFinal"
+  },
+  {
+    "id" : "PetOwnerRelatedPerson",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/PetOwnerRelatedPerson",
+    "version" : "0.1.0",
+    "name" : "PetOwnerRelatedPerson"
+  },
+  {
+    "id" : "especieAnimal",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/especieAnimal",
+    "version" : "0.1.0",
+    "name" : "EspecieAnimal"
+  },
+  {
+    "id" : "estadoGenero",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/estadoGenero",
+    "version" : "0.1.0",
+    "name" : "EstadoGenero"
+  },
+  {
+    "id" : "razaAnimal",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/razaAnimal",
+    "version" : "0.1.0",
+    "name" : "RazaAnimal"
+  },
+  {
+    "id" : "MyComposition",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/Composition",
+    "version" : "0.1.0",
+    "name" : "MyComposition"
+  },
+  {
+    "id" : "EspecieAnimal",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/EspecieAnimal",
+    "version" : "0.1.0",
+    "name" : "EspecieAnimal"
+  },
+  {
+    "id" : "EstadoDelGenero",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/EstadoDelGenero",
+    "version" : "0.1.0",
+    "name" : "EstadoDelGenero"
+  },
+  {
+    "id" : "MyPractitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/MyPractitioner",
+    "version" : "0.1.0",
+    "name" : "MyPractitioner"
+  },
+  {
+    "id" : "PetOrigin",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetOrigin",
+    "version" : "0.1.0",
+    "name" : "PetOrigin"
+  },
+  {
+    "id" : "PetParticularSigns",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetParticularSigns",
+    "version" : "0.1.0",
+    "name" : "PetParticularSigns"
+  },
+  {
+    "id" : "PetPatient",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetPatient",
+    "version" : "0.1.0",
+    "name" : "PetPatient"
+  },
+  {
+    "id" : "PetTypeCoat",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetTypeCoat",
+    "version" : "0.1.0",
+    "name" : "PetTypeCoat"
+  },
+  {
+    "id" : "PetWeight",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetWeight",
+    "version" : "0.1.0",
+    "name" : "PetWeight"
+  },
+  {
+    "id" : "PetZootechnicalPurpose",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose",
+    "version" : "0.1.0",
+    "name" : "PetZootechnicalPurpose"
+  },
+  {
+    "id" : "RazaAnimal",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/RazaAnimal",
+    "version" : "0.1.0",
+    "name" : "RazaAnimal"
+  },
+  {
+    "id" : "VetOrganization",
+    "type" : "StructureDefinition",
+    "url" : "https://example.org/fhir/StructureDefinition/VetOrganization",
+    "version" : "0.1.0",
+    "name" : "VetOrganization"
+  }
+]

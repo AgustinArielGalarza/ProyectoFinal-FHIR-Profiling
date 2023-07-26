@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="especieAnimal"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-animal-species.html"><code>http://example.com/fhir/CodeSystem/animal-species</code></a></li></ul></div>
+  </text>
+  <url value="http://example.org/ValueSet/especieAnimal"/>
+  <version value="0.1.0"/>
+  <name value="EspecieAnimal"/>
+  <title value="Tipos de Especies Animales"/>
+  <status value="active"/>
+  <date value="2023-07-17T16:02:45-03:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Listado de Especies Animales"/>
+  <compose>
+    <include>
+      <system value="http://example.com/fhir/CodeSystem/animal-species"/>
+    </include>
+  </compose>
+</ValueSet>

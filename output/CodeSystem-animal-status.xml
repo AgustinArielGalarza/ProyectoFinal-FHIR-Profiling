@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="animal-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://example.com/fhir/CodeSystem/animal-status</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">castrado<a name="animal-status-castrado"> </a></td><td>Castrado</td><td>Animal castrated</td></tr><tr><td style="white-space:nowrap">intacto<a name="animal-status-intacto"> </a></td><td>Intacto</td><td>Animal not castrated or sterilized</td></tr><tr><td style="white-space:nowrap">esterilizado<a name="animal-status-esterilizado"> </a></td><td>Esterilizado</td><td>Animal sterilized</td></tr></table></div>
+  </text>
+  <url value="http://example.com/fhir/CodeSystem/animal-status"/>
+  <version value="0.1.0"/>
+  <name value="Animal_Status"/>
+  <status value="active"/>
+  <date value="2023-07-17T16:02:45-03:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="A code system for representing animal status."/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="castrado"/>
+    <display value="Castrado"/>
+    <definition value="Animal castrated"/>
+  </concept>
+  <concept>
+    <code value="intacto"/>
+    <display value="Intacto"/>
+    <definition value="Animal not castrated or sterilized"/>
+  </concept>
+  <concept>
+    <code value="esterilizado"/>
+    <display value="Esterilizado"/>
+    <definition value="Animal sterilized"/>
+  </concept>
+</CodeSystem>

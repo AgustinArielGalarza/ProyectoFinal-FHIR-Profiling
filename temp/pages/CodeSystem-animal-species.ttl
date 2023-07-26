@@ -1,0 +1,83 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/animal-species> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "animal-species"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/CodeSystem/animal-species</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">canis-lupus-familiaris<a name=\"animal-species-canis-lupus-familiaris\"> </a></td><td>Canis lupus familiaris</td></tr><tr><td style=\"white-space:nowrap\">felis-catus<a name=\"animal-species-felis-catus\"> </a></td><td>Felis catus</td></tr><tr><td style=\"white-space:nowrap\">equus-caballus<a name=\"animal-species-equus-caballus\"> </a></td><td>Equus caballus</td></tr><tr><td style=\"white-space:nowrap\">bos-taurus<a name=\"animal-species-bos-taurus\"> </a></td><td>Bos taurus</td></tr><tr><td style=\"white-space:nowrap\">ovis-aries<a name=\"animal-species-ovis-aries\"> </a></td><td>Ovis aries</td></tr><tr><td style=\"white-space:nowrap\">sus-scrofa-domestica<a name=\"animal-species-sus-scrofa-domestica\"> </a></td><td>Sus scrofa domestica</td></tr><tr><td style=\"white-space:nowrap\">gallus-gallus-domesticus<a name=\"animal-species-gallus-gallus-domesticus\"> </a></td><td>Gallus gallus domesticus</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.com/fhir/CodeSystem/animal-species"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Animal_Species"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-07-17T16:02:45-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "A code system for representing animal species."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "canis-lupus-familiaris" ] ;
+     fhir:display [ fhir:v "Canis lupus familiaris" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "definition" ] ;
+       fhir:value [ fhir:v "Domestic dog" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "felis-catus" ] ;
+     fhir:display [ fhir:v "Felis catus" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "definition" ] ;
+       fhir:value [ fhir:v "Domestic cat" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "equus-caballus" ] ;
+     fhir:display [ fhir:v "Equus caballus" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "definition" ] ;
+       fhir:value [ fhir:v "Horse" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "bos-taurus" ] ;
+     fhir:display [ fhir:v "Bos taurus" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "definition" ] ;
+       fhir:value [ fhir:v "Cattle" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ovis-aries" ] ;
+     fhir:display [ fhir:v "Ovis aries" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "definition" ] ;
+       fhir:value [ fhir:v "Sheep" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "sus-scrofa-domestica" ] ;
+     fhir:display [ fhir:v "Sus scrofa domestica" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "definition" ] ;
+       fhir:value [ fhir:v "Domestic pig" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "gallus-gallus-domesticus" ] ;
+     fhir:display [ fhir:v "Gallus gallus domesticus" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "definition" ] ;
+       fhir:value [ fhir:v "Chicken" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

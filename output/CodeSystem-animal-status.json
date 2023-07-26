@@ -1,0 +1,39 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "animal-status",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/CodeSystem/animal-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">castrado<a name=\"animal-status-castrado\"> </a></td><td>Castrado</td><td>Animal castrated</td></tr><tr><td style=\"white-space:nowrap\">intacto<a name=\"animal-status-intacto\"> </a></td><td>Intacto</td><td>Animal not castrated or sterilized</td></tr><tr><td style=\"white-space:nowrap\">esterilizado<a name=\"animal-status-esterilizado\"> </a></td><td>Esterilizado</td><td>Animal sterilized</td></tr></table></div>"
+  },
+  "url" : "http://example.com/fhir/CodeSystem/animal-status",
+  "version" : "0.1.0",
+  "name" : "Animal_Status",
+  "status" : "active",
+  "date" : "2023-07-17T16:02:45-03:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "A code system for representing animal status.",
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "castrado",
+    "display" : "Castrado",
+    "definition" : "Animal castrated"
+  },
+  {
+    "code" : "intacto",
+    "display" : "Intacto",
+    "definition" : "Animal not castrated or sterilized"
+  },
+  {
+    "code" : "esterilizado",
+    "display" : "Esterilizado",
+    "definition" : "Animal sterilized"
+  }]
+}

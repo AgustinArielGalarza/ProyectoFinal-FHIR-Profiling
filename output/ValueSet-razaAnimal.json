@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "razaAnimal",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-animal-breed.html\"><code>http://example.com/fhir/CodeSystem/animal-breed</code></a></li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/razaAnimal",
+  "version" : "0.1.0",
+  "name" : "RazaAnimal",
+  "title" : "Tipos de raza animal",
+  "status" : "active",
+  "date" : "2023-07-17T16:02:45-03:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Listado de raza animal",
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.com/fhir/CodeSystem/animal-breed"
+    }]
+  }
+}

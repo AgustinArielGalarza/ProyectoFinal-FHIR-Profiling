@@ -1,0 +1,1127 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 153, errors = 31, warn = 43, info = 3-->
+<head>
+  <title>proyectoFinal : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+    function toggle(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Validation Information') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Validation Information';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Validation Information';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for proyectoFinal</h1>
+ <p>Generated Mon Jul 17 16:06:10 ART 2023, FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = <a href="http://example.org">http://example.org</a> (<a href="http://example.org/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.3.18, which is out of date. The current version is v1.3.23 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fhir.example, Canonical = http://example.org</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Publication Request:</td><td><ul><li><span title="Invalid HTTP response 404 from http://example.org/package-list.json?nocache=1689620770573 (Not Found) (content in C:\Users\Agustin\AppData\Local\Temp\http-log\fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
+<li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
+</ul>
+</td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> fhir.example</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://example.org</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Outdated Release">O</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/5.0.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Latest Release is 5.1.0</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR4Xu3IsQ0AIAwEsez6+89AqKGGJj7JzVWS+mm3zgcAAMxwDQAAgFcaYAVAgNGLTjgAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.extensions.r4</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions/1.0.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: fhir.base.template#current. Tools: current</para></div></td></tr>
+ <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
+ <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.org (Problem #1 with package-list.json at http://example.org: Invalid HTTP response 404 from http://example.org/package-list.json?nocache=1689620562900 (Not Found) (content in C:\Users\Agustin\AppData\Local\Temp\http-log\fhir-http-2.log))</td></tr>
+ <tr><td>IPA Comparison:</td><td> n/a</td></tr>
+ <tr><td>Summary:</td><td> errors = 31, warn = 43, info = 3, broken links = 153</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>154</b></td><td><b>17</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_CodeSystem-animal-breed"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\CodeSystem-animal-breed</b></a></td><td><b>2</b></td><td><b>3</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_CodeSystem-animal-species"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\CodeSystem-animal-species</b></a></td><td><b>2</b></td><td><b>3</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_CodeSystem-animal-status"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\CodeSystem-animal-status</b></a></td><td><b>2</b></td><td><b>3</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_ImplementationGuide-fhir.example"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\ImplementationGuide-fhir.example</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-EspecieAnimal"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-EspecieAnimal</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-EstadoDelGenero"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-EstadoDelGenero</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-MyComposition"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-MyComposition</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-MyPractitioner"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-MyPractitioner</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetOrigin"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetOrigin</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetOwnerRelatedPerson"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetOwnerRelatedPerson</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetParticularSigns"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetParticularSigns</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetPatient"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetPatient</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetTypeCoat"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetTypeCoat</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetWeight"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetWeight</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetZootechnicalPurpose"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetZootechnicalPurpose</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-RazaAnimal"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-RazaAnimal</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-VetOrganization"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-VetOrganization</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_ValueSet-especieAnimal"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\ValueSet-especieAnimal</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_ValueSet-estadoGenero"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\ValueSet-estadoGenero</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_ValueSet-razaAnimal"><b>C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\ValueSet-razaAnimal</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
+ <div style="border: 1px grey solid; display: none" id="v"></div>
+ <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.parameter[23].value</b></td><td><b>error</b></td><td title=""><b>Supressed messages file not found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/EspecieAnimal.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/EstadoDelGenero.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MyComposition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MyPractitioner.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetOrigin.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetOwnerRelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetParticularSigns.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetTypeCoat.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetWeight.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/PetZootechnicalPurpose.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/RazaAnimal.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VetOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-breed-testing.html#l130">output\CodeSystem-animal-breed-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-breed.change.history.html#l132">output\CodeSystem-animal-breed.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-breed.html#l130">output\CodeSystem-animal-breed.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-breed.json.html#l130">output\CodeSystem-animal-breed.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-breed.ttl.html#l130">output\CodeSystem-animal-breed.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-breed.xml.html#l130">output\CodeSystem-animal-breed.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-species-testing.html#l130">output\CodeSystem-animal-species-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-species.change.history.html#l132">output\CodeSystem-animal-species.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-species.html#l130">output\CodeSystem-animal-species.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-species.json.html#l130">output\CodeSystem-animal-species.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-species.ttl.html#l130">output\CodeSystem-animal-species.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-species.xml.html#l130">output\CodeSystem-animal-species.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-status-testing.html#l130">output\CodeSystem-animal-status-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-status.change.history.html#l132">output\CodeSystem-animal-status.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-status.html#l130">output\CodeSystem-animal-status.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-status.json.html#l130">output\CodeSystem-animal-status.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-status.ttl.html#l130">output\CodeSystem-animal-status.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-animal-status.xml.html#l130">output\CodeSystem-animal-status.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EspecieAnimal-definitions.html#l131">output\StructureDefinition-EspecieAnimal-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EspecieAnimal-mappings.html#l131">output\StructureDefinition-EspecieAnimal-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EspecieAnimal-testing.html#l131">output\StructureDefinition-EspecieAnimal-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EspecieAnimal.html#l130">output\StructureDefinition-EspecieAnimal.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EspecieAnimal.profile.history.html#l131">output\StructureDefinition-EspecieAnimal.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EspecieAnimal.profile.json.html#l131">output\StructureDefinition-EspecieAnimal.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EspecieAnimal.profile.ttl.html#l131">output\StructureDefinition-EspecieAnimal.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EspecieAnimal.profile.xml.html#l131">output\StructureDefinition-EspecieAnimal.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EstadoDelGenero-definitions.html#l131">output\StructureDefinition-EstadoDelGenero-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EstadoDelGenero-mappings.html#l131">output\StructureDefinition-EstadoDelGenero-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EstadoDelGenero-testing.html#l131">output\StructureDefinition-EstadoDelGenero-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EstadoDelGenero.html#l130">output\StructureDefinition-EstadoDelGenero.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EstadoDelGenero.profile.history.html#l131">output\StructureDefinition-EstadoDelGenero.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EstadoDelGenero.profile.json.html#l131">output\StructureDefinition-EstadoDelGenero.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EstadoDelGenero.profile.ttl.html#l131">output\StructureDefinition-EstadoDelGenero.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-EstadoDelGenero.profile.xml.html#l131">output\StructureDefinition-EstadoDelGenero.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyComposition-definitions.html#l131">output\StructureDefinition-MyComposition-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyComposition-examples.html#l131">output\StructureDefinition-MyComposition-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyComposition-mappings.html#l131">output\StructureDefinition-MyComposition-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyComposition-testing.html#l131">output\StructureDefinition-MyComposition-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyComposition.html#l131">output\StructureDefinition-MyComposition.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyComposition.profile.history.html#l131">output\StructureDefinition-MyComposition.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyComposition.profile.json.html#l131">output\StructureDefinition-MyComposition.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyComposition.profile.ttl.html#l131">output\StructureDefinition-MyComposition.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyComposition.profile.xml.html#l131">output\StructureDefinition-MyComposition.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyPractitioner-definitions.html#l131">output\StructureDefinition-MyPractitioner-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyPractitioner-examples.html#l131">output\StructureDefinition-MyPractitioner-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyPractitioner-mappings.html#l131">output\StructureDefinition-MyPractitioner-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyPractitioner-testing.html#l131">output\StructureDefinition-MyPractitioner-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyPractitioner.html#l131">output\StructureDefinition-MyPractitioner.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyPractitioner.profile.history.html#l131">output\StructureDefinition-MyPractitioner.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyPractitioner.profile.json.html#l131">output\StructureDefinition-MyPractitioner.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyPractitioner.profile.ttl.html#l131">output\StructureDefinition-MyPractitioner.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-MyPractitioner.profile.xml.html#l131">output\StructureDefinition-MyPractitioner.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOrigin-definitions.html#l131">output\StructureDefinition-PetOrigin-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOrigin-examples.html#l131">output\StructureDefinition-PetOrigin-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOrigin-mappings.html#l131">output\StructureDefinition-PetOrigin-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOrigin-testing.html#l131">output\StructureDefinition-PetOrigin-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOrigin.html#l131">output\StructureDefinition-PetOrigin.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOrigin.profile.history.html#l131">output\StructureDefinition-PetOrigin.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOrigin.profile.json.html#l131">output\StructureDefinition-PetOrigin.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOrigin.profile.ttl.html#l131">output\StructureDefinition-PetOrigin.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOrigin.profile.xml.html#l131">output\StructureDefinition-PetOrigin.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOwnerRelatedPerson-definitions.html#l131">output\StructureDefinition-PetOwnerRelatedPerson-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOwnerRelatedPerson-examples.html#l131">output\StructureDefinition-PetOwnerRelatedPerson-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOwnerRelatedPerson-mappings.html#l131">output\StructureDefinition-PetOwnerRelatedPerson-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOwnerRelatedPerson-testing.html#l131">output\StructureDefinition-PetOwnerRelatedPerson-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOwnerRelatedPerson.html#l131">output\StructureDefinition-PetOwnerRelatedPerson.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOwnerRelatedPerson.profile.history.html#l131">output\StructureDefinition-PetOwnerRelatedPerson.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOwnerRelatedPerson.profile.json.html#l131">output\StructureDefinition-PetOwnerRelatedPerson.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOwnerRelatedPerson.profile.ttl.html#l131">output\StructureDefinition-PetOwnerRelatedPerson.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetOwnerRelatedPerson.profile.xml.html#l131">output\StructureDefinition-PetOwnerRelatedPerson.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetParticularSigns-definitions.html#l131">output\StructureDefinition-PetParticularSigns-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetParticularSigns-examples.html#l131">output\StructureDefinition-PetParticularSigns-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetParticularSigns-mappings.html#l131">output\StructureDefinition-PetParticularSigns-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetParticularSigns-testing.html#l131">output\StructureDefinition-PetParticularSigns-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetParticularSigns.html#l131">output\StructureDefinition-PetParticularSigns.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetParticularSigns.profile.history.html#l131">output\StructureDefinition-PetParticularSigns.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetParticularSigns.profile.json.html#l131">output\StructureDefinition-PetParticularSigns.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetParticularSigns.profile.ttl.html#l131">output\StructureDefinition-PetParticularSigns.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetParticularSigns.profile.xml.html#l131">output\StructureDefinition-PetParticularSigns.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetPatient-definitions.html#l131">output\StructureDefinition-PetPatient-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetPatient-examples.html#l131">output\StructureDefinition-PetPatient-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetPatient-mappings.html#l131">output\StructureDefinition-PetPatient-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetPatient-testing.html#l131">output\StructureDefinition-PetPatient-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetPatient.html#l131">output\StructureDefinition-PetPatient.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetPatient.profile.history.html#l131">output\StructureDefinition-PetPatient.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetPatient.profile.json.html#l131">output\StructureDefinition-PetPatient.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetPatient.profile.ttl.html#l131">output\StructureDefinition-PetPatient.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetPatient.profile.xml.html#l131">output\StructureDefinition-PetPatient.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetTypeCoat-definitions.html#l131">output\StructureDefinition-PetTypeCoat-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetTypeCoat-examples.html#l131">output\StructureDefinition-PetTypeCoat-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetTypeCoat-mappings.html#l131">output\StructureDefinition-PetTypeCoat-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetTypeCoat-testing.html#l131">output\StructureDefinition-PetTypeCoat-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetTypeCoat.html#l131">output\StructureDefinition-PetTypeCoat.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetTypeCoat.profile.history.html#l131">output\StructureDefinition-PetTypeCoat.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetTypeCoat.profile.json.html#l131">output\StructureDefinition-PetTypeCoat.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetTypeCoat.profile.ttl.html#l131">output\StructureDefinition-PetTypeCoat.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetTypeCoat.profile.xml.html#l131">output\StructureDefinition-PetTypeCoat.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetWeight-definitions.html#l131">output\StructureDefinition-PetWeight-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetWeight-examples.html#l131">output\StructureDefinition-PetWeight-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetWeight-mappings.html#l131">output\StructureDefinition-PetWeight-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetWeight-testing.html#l131">output\StructureDefinition-PetWeight-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetWeight.html#l131">output\StructureDefinition-PetWeight.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetWeight.profile.history.html#l131">output\StructureDefinition-PetWeight.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetWeight.profile.json.html#l131">output\StructureDefinition-PetWeight.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetWeight.profile.ttl.html#l131">output\StructureDefinition-PetWeight.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetWeight.profile.xml.html#l131">output\StructureDefinition-PetWeight.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetZootechnicalPurpose-definitions.html#l131">output\StructureDefinition-PetZootechnicalPurpose-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetZootechnicalPurpose-examples.html#l131">output\StructureDefinition-PetZootechnicalPurpose-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetZootechnicalPurpose-mappings.html#l131">output\StructureDefinition-PetZootechnicalPurpose-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetZootechnicalPurpose-testing.html#l131">output\StructureDefinition-PetZootechnicalPurpose-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetZootechnicalPurpose.html#l131">output\StructureDefinition-PetZootechnicalPurpose.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetZootechnicalPurpose.profile.history.html#l131">output\StructureDefinition-PetZootechnicalPurpose.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetZootechnicalPurpose.profile.json.html#l131">output\StructureDefinition-PetZootechnicalPurpose.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetZootechnicalPurpose.profile.ttl.html#l131">output\StructureDefinition-PetZootechnicalPurpose.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-PetZootechnicalPurpose.profile.xml.html#l131">output\StructureDefinition-PetZootechnicalPurpose.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-RazaAnimal-definitions.html#l131">output\StructureDefinition-RazaAnimal-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-RazaAnimal-mappings.html#l131">output\StructureDefinition-RazaAnimal-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-RazaAnimal-testing.html#l131">output\StructureDefinition-RazaAnimal-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-RazaAnimal.html#l130">output\StructureDefinition-RazaAnimal.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-RazaAnimal.profile.history.html#l131">output\StructureDefinition-RazaAnimal.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-RazaAnimal.profile.json.html#l131">output\StructureDefinition-RazaAnimal.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-RazaAnimal.profile.ttl.html#l131">output\StructureDefinition-RazaAnimal.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-RazaAnimal.profile.xml.html#l131">output\StructureDefinition-RazaAnimal.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-VetOrganization-definitions.html#l131">output\StructureDefinition-VetOrganization-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-VetOrganization-examples.html#l131">output\StructureDefinition-VetOrganization-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-VetOrganization-mappings.html#l131">output\StructureDefinition-VetOrganization-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-VetOrganization-testing.html#l131">output\StructureDefinition-VetOrganization-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-VetOrganization.html#l131">output\StructureDefinition-VetOrganization.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-VetOrganization.profile.history.html#l131">output\StructureDefinition-VetOrganization.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-VetOrganization.profile.json.html#l131">output\StructureDefinition-VetOrganization.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-VetOrganization.profile.ttl.html#l131">output\StructureDefinition-VetOrganization.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-VetOrganization.profile.xml.html#l131">output\StructureDefinition-VetOrganization.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 88, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-especieAnimal-testing.html#l130">output\ValueSet-especieAnimal-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-especieAnimal.change.history.html#l132">output\ValueSet-especieAnimal.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-especieAnimal.html#l130">output\ValueSet-especieAnimal.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-especieAnimal.json.html#l130">output\ValueSet-especieAnimal.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-especieAnimal.ttl.html#l130">output\ValueSet-especieAnimal.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-especieAnimal.xml.html#l130">output\ValueSet-especieAnimal.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-estadoGenero-testing.html#l130">output\ValueSet-estadoGenero-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-estadoGenero.change.history.html#l132">output\ValueSet-estadoGenero.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-estadoGenero.html#l130">output\ValueSet-estadoGenero.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-estadoGenero.json.html#l130">output\ValueSet-estadoGenero.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-estadoGenero.ttl.html#l130">output\ValueSet-estadoGenero.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-estadoGenero.xml.html#l130">output\ValueSet-estadoGenero.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-razaAnimal-testing.html#l130">output\ValueSet-razaAnimal-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-razaAnimal.change.history.html#l132">output\ValueSet-razaAnimal.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 84, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-razaAnimal.html#l130">output\ValueSet-razaAnimal.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-razaAnimal.json.html#l130">output\ValueSet-razaAnimal.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-razaAnimal.ttl.html#l130">output\ValueSet-razaAnimal.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-razaAnimal.xml.html#l130">output\ValueSet-razaAnimal.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 82, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="artifacts.html#l130">output\artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="searchform.html#l118">output\searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 63, column 21</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Specification&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="toc.html#l130">output\toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 80, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>1</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>2</b></td><td><b>warning</b></td><td title=""><b>An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>3</b></td><td><b>warning</b></td><td title=""><b>An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>4</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_CodeSystem-animal-breed"> </a>
+<h2><a href="CodeSystem-animal-breed.html">fsh-generated\resources\CodeSystem-animal-breed.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CodeSystem.where(url = 'http://example.com/fhir/CodeSystem/animal-breed')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\CodeSystem-animal-breed.json - the canonical URL (http://example.org/CodeSystem/animal-breed) does not match the URL (http://example.com/fhir/CodeSystem/animal-breed)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem</b></td><td><b>information</b></td><td title=""><b>Los CodeSystems no definidos por HL7 DEBERIAN tener un valor  definido para el elemento caseSensitive para que los usuarios conozcan el estado y significado del sistema de codificación claramente</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c2009)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento title es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c2009)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c2009)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento caseSensitive es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\CodeSystem-animal-breed</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/CodeSystem/animal-breed vs http://example.com/fhir/CodeSystem/animal-breed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_CodeSystem-animal-species"> </a>
+<h2><a href="CodeSystem-animal-species.html">fsh-generated\resources\CodeSystem-animal-species.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CodeSystem.where(url = 'http://example.com/fhir/CodeSystem/animal-species')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\CodeSystem-animal-species.json - the canonical URL (http://example.org/CodeSystem/animal-species) does not match the URL (http://example.com/fhir/CodeSystem/animal-species)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem</b></td><td><b>information</b></td><td title=""><b>Los CodeSystems no definidos por HL7 DEBERIAN tener un valor  definido para el elemento caseSensitive para que los usuarios conozcan el estado y significado del sistema de codificación claramente</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c2552)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento title es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c2552)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c2552)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento caseSensitive es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\CodeSystem-animal-species</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/CodeSystem/animal-species vs http://example.com/fhir/CodeSystem/animal-species</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_CodeSystem-animal-status"> </a>
+<h2><a href="CodeSystem-animal-status.html">fsh-generated\resources\CodeSystem-animal-status.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CodeSystem.where(url = 'http://example.com/fhir/CodeSystem/animal-status')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\CodeSystem-animal-status.json - the canonical URL (http://example.org/CodeSystem/animal-status) does not match the URL (http://example.com/fhir/CodeSystem/animal-status)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem</b></td><td><b>information</b></td><td title=""><b>Los CodeSystems no definidos por HL7 DEBERIAN tener un valor  definido para el elemento caseSensitive para que los usuarios conozcan el estado y significado del sistema de codificación claramente</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c1480)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento title es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c1480)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem (l1/c1480)</b></td><td><b>warning</b></td><td title="CODESYSTEM_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento caseSensitive es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\CodeSystem-animal-status</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/CodeSystem/animal-status vs http://example.com/fhir/CodeSystem/animal-status</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_ImplementationGuide-fhir.example"> </a>
+<h2><a href="ImplementationGuide-fhir.example.html">fsh-generated\resources\ImplementationGuide-fhir.example.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(0)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"></div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide (l1/c15582)</b></td><td><b>warning</b></td><td title="La regla ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló"><b>La regla ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-EspecieAnimal"> </a>
+<h2><a href="StructureDefinition-EspecieAnimal.html">fsh-generated\resources\StructureDefinition-EspecieAnimal.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/EspecieAnimal')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-EspecieAnimal.json - the canonical URL (http://example.org/StructureDefinition/EspecieAnimal) does not match the URL (https://example.org/fhir/StructureDefinition/EspecieAnimal)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/EspecieAnimal')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-EspecieAnimal</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/EspecieAnimal vs https://example.org/fhir/StructureDefinition/EspecieAnimal</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-EstadoDelGenero"> </a>
+<h2><a href="StructureDefinition-EstadoDelGenero.html">fsh-generated\resources\StructureDefinition-EstadoDelGenero.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/EstadoDelGenero')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-EstadoDelGenero.json - the canonical URL (http://example.org/StructureDefinition/EstadoDelGenero) does not match the URL (https://example.org/fhir/StructureDefinition/EstadoDelGenero)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/EstadoDelGenero')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-EstadoDelGenero</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/EstadoDelGenero vs https://example.org/fhir/StructureDefinition/EstadoDelGenero</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-MyComposition"> </a>
+<h2><a href="StructureDefinition-MyComposition.html">fsh-generated\resources\StructureDefinition-MyComposition.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/Composition')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-MyComposition.json - the canonical URL (http://example.org/StructureDefinition/MyComposition) does not match the URL (https://example.org/fhir/StructureDefinition/Composition)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/Composition')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-MyComposition</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/MyComposition vs https://example.org/fhir/StructureDefinition/Composition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-MyPractitioner"> </a>
+<h2><a href="StructureDefinition-MyPractitioner.html">fsh-generated\resources\StructureDefinition-MyPractitioner.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/MyPractitioner')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-MyPractitioner.json - the canonical URL (http://example.org/StructureDefinition/MyPractitioner) does not match the URL (https://example.org/fhir/StructureDefinition/MyPractitioner)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/MyPractitioner')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-MyPractitioner</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/MyPractitioner vs https://example.org/fhir/StructureDefinition/MyPractitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetOrigin"> </a>
+<h2><a href="StructureDefinition-PetOrigin.html">fsh-generated\resources\StructureDefinition-PetOrigin.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetOrigin')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetOrigin.json - the canonical URL (http://example.org/StructureDefinition/PetOrigin) does not match the URL (https://example.org/fhir/StructureDefinition/PetOrigin)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetOrigin')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-PetOrigin</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/PetOrigin vs https://example.org/fhir/StructureDefinition/PetOrigin</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetOwnerRelatedPerson"> </a>
+<h2><a href="StructureDefinition-PetOwnerRelatedPerson.html">fsh-generated\resources\StructureDefinition-PetOwnerRelatedPerson.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://example.org/StructureDefinition/PetOwnerRelatedPerson')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetParticularSigns"> </a>
+<h2><a href="StructureDefinition-PetParticularSigns.html">fsh-generated\resources\StructureDefinition-PetParticularSigns.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetParticularSigns')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetParticularSigns.json - the canonical URL (http://example.org/StructureDefinition/PetParticularSigns) does not match the URL (https://example.org/fhir/StructureDefinition/PetParticularSigns)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetParticularSigns')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-PetParticularSigns</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/PetParticularSigns vs https://example.org/fhir/StructureDefinition/PetParticularSigns</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetPatient"> </a>
+<h2><a href="StructureDefinition-PetPatient.html">fsh-generated\resources\StructureDefinition-PetPatient.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetPatient')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetPatient.json - the canonical URL (http://example.org/StructureDefinition/PetPatient) does not match the URL (https://example.org/fhir/StructureDefinition/PetPatient)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetPatient')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-PetPatient</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/PetPatient vs https://example.org/fhir/StructureDefinition/PetPatient</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetTypeCoat"> </a>
+<h2><a href="StructureDefinition-PetTypeCoat.html">fsh-generated\resources\StructureDefinition-PetTypeCoat.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetTypeCoat')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetTypeCoat.json - the canonical URL (http://example.org/StructureDefinition/PetTypeCoat) does not match the URL (https://example.org/fhir/StructureDefinition/PetTypeCoat)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetTypeCoat')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-PetTypeCoat</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/PetTypeCoat vs https://example.org/fhir/StructureDefinition/PetTypeCoat</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetWeight"> </a>
+<h2><a href="StructureDefinition-PetWeight.html">fsh-generated\resources\StructureDefinition-PetWeight.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetWeight')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetWeight.json - the canonical URL (http://example.org/StructureDefinition/PetWeight) does not match the URL (https://example.org/fhir/StructureDefinition/PetWeight)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetWeight')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-PetWeight</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/PetWeight vs https://example.org/fhir/StructureDefinition/PetWeight</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-PetZootechnicalPurpose"> </a>
+<h2><a href="StructureDefinition-PetZootechnicalPurpose.html">fsh-generated\resources\StructureDefinition-PetZootechnicalPurpose.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetZootechnicalPurpose.json - the canonical URL (http://example.org/StructureDefinition/PetZootechnicalPurpose) does not match the URL (https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-PetZootechnicalPurpose</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/PetZootechnicalPurpose vs https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-RazaAnimal"> </a>
+<h2><a href="StructureDefinition-RazaAnimal.html">fsh-generated\resources\StructureDefinition-RazaAnimal.json</a> <span id="svi16" class="toggle" onclick="toggle('vi16')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi16')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi16"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/RazaAnimal')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-RazaAnimal.json - the canonical URL (http://example.org/StructureDefinition/RazaAnimal) does not match the URL (https://example.org/fhir/StructureDefinition/RazaAnimal)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/RazaAnimal')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-RazaAnimal</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/RazaAnimal vs https://example.org/fhir/StructureDefinition/RazaAnimal</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_StructureDefinition-VetOrganization"> </a>
+<h2><a href="StructureDefinition-VetOrganization.html">fsh-generated\resources\StructureDefinition-VetOrganization.json</a> <span id="svi17" class="toggle" onclick="toggle('vi17')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi17')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi17"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/VetOrganization')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-VetOrganization.json - the canonical URL (http://example.org/StructureDefinition/VetOrganization) does not match the URL (https://example.org/fhir/StructureDefinition/VetOrganization)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://example.org/fhir/StructureDefinition/VetOrganization')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated\resources\StructureDefinition-VetOrganization</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://example.org/StructureDefinition/VetOrganization vs https://example.org/fhir/StructureDefinition/VetOrganization</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_ValueSet-especieAnimal"> </a>
+<h2><a href="ValueSet-especieAnimal.html">fsh-generated\resources\ValueSet-especieAnimal.json</a> <span id="svi18" class="toggle" onclick="toggle('vi18')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi18')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi18"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet (l1/c756)</b></td><td><b>warning</b></td><td title="VALUESET_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_ValueSet-estadoGenero"> </a>
+<h2><a href="ValueSet-estadoGenero.html">fsh-generated\resources\ValueSet-estadoGenero.json</a> <span id="svi19" class="toggle" onclick="toggle('vi19')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi19')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi19"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet (l1/c752)</b></td><td><b>warning</b></td><td title="VALUESET_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_Agustin_Documents_Forge_integrador_proyectoFinal_fsh-generated_resources_ValueSet-razaAnimal"> </a>
+<h2><a href="ValueSet-razaAnimal.html">fsh-generated\resources\ValueSet-razaAnimal.json</a> <span id="svi20" class="toggle" onclick="toggle('vi20')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi20')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi20"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet (l1/c729)</b></td><td><b>warning</b></td><td title="VALUESET_SHAREABLE_MISSING"><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="CODESYSTEM_SHAREABLE_MISSING"> </a>
+<h2>CODESYSTEM_SHAREABLE_MISSING</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-breed.html">fsh-generated\resources\CodeSystem-animal-breed.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento title es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-breed.html">fsh-generated\resources\CodeSystem-animal-breed.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-breed.html">fsh-generated\resources\CodeSystem-animal-breed.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento caseSensitive es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-species.html">fsh-generated\resources\CodeSystem-animal-species.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento title es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-species.html">fsh-generated\resources\CodeSystem-animal-species.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-species.html">fsh-generated\resources\CodeSystem-animal-species.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento caseSensitive es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-status.html">fsh-generated\resources\CodeSystem-animal-status.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento title es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-status.html">fsh-generated\resources\CodeSystem-animal-status.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-animal-status.html">fsh-generated\resources\CodeSystem-animal-status.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento caseSensitive es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="RESOURCE_CANONICAL_MISMATCH"> </a>
+<h2>RESOURCE_CANONICAL_MISMATCH</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="CodeSystem-animal-breed.html">fsh-generated\resources\CodeSystem-animal-breed.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\CodeSystem-animal-breed.json - the canonical URL (http://example.org/CodeSystem/animal-breed) does not match the URL (http://example.com/fhir/CodeSystem/animal-breed)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CodeSystem-animal-species.html">fsh-generated\resources\CodeSystem-animal-species.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\CodeSystem-animal-species.json - the canonical URL (http://example.org/CodeSystem/animal-species) does not match the URL (http://example.com/fhir/CodeSystem/animal-species)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CodeSystem-animal-status.html">fsh-generated\resources\CodeSystem-animal-status.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\CodeSystem-animal-status.json - the canonical URL (http://example.org/CodeSystem/animal-status) does not match the URL (http://example.com/fhir/CodeSystem/animal-status)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-EspecieAnimal.html">fsh-generated\resources\StructureDefinition-EspecieAnimal.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-EspecieAnimal.json - the canonical URL (http://example.org/StructureDefinition/EspecieAnimal) does not match the URL (https://example.org/fhir/StructureDefinition/EspecieAnimal)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-EstadoDelGenero.html">fsh-generated\resources\StructureDefinition-EstadoDelGenero.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-EstadoDelGenero.json - the canonical URL (http://example.org/StructureDefinition/EstadoDelGenero) does not match the URL (https://example.org/fhir/StructureDefinition/EstadoDelGenero)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-MyComposition.html">fsh-generated\resources\StructureDefinition-MyComposition.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-MyComposition.json - the canonical URL (http://example.org/StructureDefinition/MyComposition) does not match the URL (https://example.org/fhir/StructureDefinition/Composition)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-MyPractitioner.html">fsh-generated\resources\StructureDefinition-MyPractitioner.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-MyPractitioner.json - the canonical URL (http://example.org/StructureDefinition/MyPractitioner) does not match the URL (https://example.org/fhir/StructureDefinition/MyPractitioner)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-PetOrigin.html">fsh-generated\resources\StructureDefinition-PetOrigin.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetOrigin.json - the canonical URL (http://example.org/StructureDefinition/PetOrigin) does not match the URL (https://example.org/fhir/StructureDefinition/PetOrigin)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-PetParticularSigns.html">fsh-generated\resources\StructureDefinition-PetParticularSigns.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetParticularSigns.json - the canonical URL (http://example.org/StructureDefinition/PetParticularSigns) does not match the URL (https://example.org/fhir/StructureDefinition/PetParticularSigns)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-PetPatient.html">fsh-generated\resources\StructureDefinition-PetPatient.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetPatient.json - the canonical URL (http://example.org/StructureDefinition/PetPatient) does not match the URL (https://example.org/fhir/StructureDefinition/PetPatient)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-PetTypeCoat.html">fsh-generated\resources\StructureDefinition-PetTypeCoat.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetTypeCoat.json - the canonical URL (http://example.org/StructureDefinition/PetTypeCoat) does not match the URL (https://example.org/fhir/StructureDefinition/PetTypeCoat)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-PetWeight.html">fsh-generated\resources\StructureDefinition-PetWeight.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetWeight.json - the canonical URL (http://example.org/StructureDefinition/PetWeight) does not match the URL (https://example.org/fhir/StructureDefinition/PetWeight)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-PetZootechnicalPurpose.html">fsh-generated\resources\StructureDefinition-PetZootechnicalPurpose.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-PetZootechnicalPurpose.json - the canonical URL (http://example.org/StructureDefinition/PetZootechnicalPurpose) does not match the URL (https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-RazaAnimal.html">fsh-generated\resources\StructureDefinition-RazaAnimal.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-RazaAnimal.json - the canonical URL (http://example.org/StructureDefinition/RazaAnimal) does not match the URL (https://example.org/fhir/StructureDefinition/RazaAnimal)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-VetOrganization.html">fsh-generated\resources\StructureDefinition-VetOrganization.json</a></td><td><b>Conformance resource C:\Users\Agustin\Documents\Forge\integrador\proyectoFinal\fsh-generated\resources\StructureDefinition-VetOrganization.json - the canonical URL (http://example.org/StructureDefinition/VetOrganization) does not match the URL (https://example.org/fhir/StructureDefinition/VetOrganization)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="VALUESET_SHAREABLE_MISSING"> </a>
+<h2>VALUESET_SHAREABLE_MISSING</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-especieAnimal.html">fsh-generated\resources\ValueSet-especieAnimal.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-estadoGenero.html">fsh-generated\resources\ValueSet-estadoGenero.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-razaAnimal.html">fsh-generated\resources\ValueSet-razaAnimal.json</a></td><td><b>El perfil ShareableValueSet dice que el elemento experimental es obligatorio, pero no está presente. Los conjuntos de valores publicados DEBERIAN conformar al perfil ShareableValueSet</b></td>
+   </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,21 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-fhir.example.json	4552	-	0	0	0	0	0	0	6	186	0	0	0	0	0	0	0	2	0	0	317	230	0	0	2	5	0	0
+fsh-generated/resources/CodeSystem-animal-breed.json	964	21	2	0	1	0	0	0	0	17	0	0	1	0	0	0	0	0	0	0	69	6464	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-animal-species.json	1757	26	0	0	0	0	0	0	0	13	0	0	1	0	0	0	0	0	0	0	38	250	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-animal-status.json	698	19	1	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	26	181	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-EspecieAnimal.json	802	17	0	0	0	0	0	82	1	93	0	0	2	0	0	0	0	1	0	0	129	1642	0	0	0	4	0	0
+fsh-generated/resources/StructureDefinition-EstadoDelGenero.json	1356	26	0	0	0	0	0	105	0	72	0	0	0	0	0	0	0	2	0	0	291	1424	0	0	0	5	0	0
+fsh-generated/resources/StructureDefinition-MyComposition.json	13938	123	0	0	0	0	0	2396	0	1360	0	0	1	0	0	0	0	10	0	0	3909	14193	0	0	0	86	1	4
+fsh-generated/resources/StructureDefinition-MyPractitioner.json	6944	41	0	0	0	0	0	448	0	375	0	0	1	0	0	0	0	3	0	0	1395	3144	0	0	0	36	0	0
+fsh-generated/resources/StructureDefinition-PetOrigin.json	6344	57	0	0	0	0	0	554	1	306	0	0	1	0	0	0	0	3	0	0	1942	3883	0	0	0	39	0	1
+fsh-generated/resources/StructureDefinition-PetOwnerRelatedPerson.json	9356	61	0	0	0	0	0	537	0	499	0	0	1	0	0	0	0	3	0	0	1676	3633	0	0	0	47	0	1
+fsh-generated/resources/StructureDefinition-PetParticularSigns.json	6374	42	0	0	0	0	0	683	0	377	0	0	0	0	0	0	0	4	0	0	1371	3633	0	0	0	30	0	0
+fsh-generated/resources/StructureDefinition-PetPatient.json	13079	52	0	0	0	0	0	1100	0	844	0	0	1	0	0	0	0	5	0	0	2913	5654	0	0	0	66	0	2
+fsh-generated/resources/StructureDefinition-PetTypeCoat.json	6350	43	0	0	0	0	0	562	0	319	0	0	0	0	0	0	0	2	0	0	1782	3708	0	0	0	39	0	0
+fsh-generated/resources/StructureDefinition-PetWeight.json	6969	41	0	0	0	0	0	602	0	390	0	0	2	0	0	0	0	4	0	0	1520	4014	0	0	0	49	0	2
+fsh-generated/resources/StructureDefinition-PetZootechnicalPurpose.json	6404	36	0	0	0	0	0	539	0	439	0	0	0	0	0	0	0	2	0	0	1622	2823	0	0	0	60	1	0
+fsh-generated/resources/StructureDefinition-RazaAnimal.json	1336	8	0	0	0	0	0	71	0	60	0	0	0	0	0	0	0	0	0	0	253	607	0	2	0	5	0	1
+fsh-generated/resources/StructureDefinition-VetOrganization.json	8817	46	0	0	0	0	0	575	0	528	0	0	0	0	0	0	0	4	0	0	1597	3787	0	0	0	55	0	0
+fsh-generated/resources/ValueSet-especieAnimal.json	402	2	1	0	0	0	0	0	0	110	0	0	0	0	0	0	0	0	0	0	23	11326	0	0	1	1	0	0
+fsh-generated/resources/ValueSet-estadoGenero.json	400	3	0	0	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	21	114	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-razaAnimal.json	379	3	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	17	107	0	0	0	0	0	0

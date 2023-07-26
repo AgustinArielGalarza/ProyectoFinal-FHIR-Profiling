@@ -1,0 +1,84 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Animal_Species",
+  "id": "animal-species",
+  "description": "A code system for representing animal species.",
+  "url": "http://example.com/fhir/CodeSystem/animal-species",
+  "concept": [
+    {
+      "code": "canis-lupus-familiaris",
+      "display": "Canis lupus familiaris",
+      "property": [
+        {
+          "code": "definition",
+          "valueString": "Domestic dog"
+        }
+      ]
+    },
+    {
+      "code": "felis-catus",
+      "display": "Felis catus",
+      "property": [
+        {
+          "code": "definition",
+          "valueString": "Domestic cat"
+        }
+      ]
+    },
+    {
+      "code": "equus-caballus",
+      "display": "Equus caballus",
+      "property": [
+        {
+          "code": "definition",
+          "valueString": "Horse"
+        }
+      ]
+    },
+    {
+      "code": "bos-taurus",
+      "display": "Bos taurus",
+      "property": [
+        {
+          "code": "definition",
+          "valueString": "Cattle"
+        }
+      ]
+    },
+    {
+      "code": "ovis-aries",
+      "display": "Ovis aries",
+      "property": [
+        {
+          "code": "definition",
+          "valueString": "Sheep"
+        }
+      ]
+    },
+    {
+      "code": "sus-scrofa-domestica",
+      "display": "Sus scrofa domestica",
+      "property": [
+        {
+          "code": "definition",
+          "valueString": "Domestic pig"
+        }
+      ]
+    },
+    {
+      "code": "gallus-gallus-domesticus",
+      "display": "Gallus gallus domesticus",
+      "property": [
+        {
+          "code": "definition",
+          "valueString": "Chicken"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "publisher": "Your Organization",
+  "count": 7
+}

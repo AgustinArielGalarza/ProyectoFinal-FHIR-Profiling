@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "estadoGenero",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-animal-status.html\"><code>http://example.com/fhir/CodeSystem/animal-status</code></a></li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/estadoGenero",
+  "version" : "0.1.0",
+  "name" : "EstadoGenero",
+  "title" : "Tipos de estados del genero",
+  "status" : "active",
+  "date" : "2023-07-17T16:02:45-03:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Listado de estados del genero",
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.com/fhir/CodeSystem/animal-status"
+    }]
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "MyComposition",
+  "url": "https://example.org/fhir/StructureDefinition/Composition",
+  "name": "MyComposition",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "cda",
+      "uri": "http://hl7.org/v3/cda",
+      "name": "CDA (R2)"
+    },
+    {
+      "identity": "fhirdocumentreference",
+      "uri": "http://hl7.org/fhir/documentreference",
+      "name": "FHIR DocumentReference"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Composition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Composition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Composition.identifier",
+        "path": "Composition.identifier",
+        "min": 1
+      },
+      {
+        "id": "Composition.identifier.use",
+        "path": "Composition.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Composition.identifier.type",
+        "path": "Composition.identifier.type",
+        "max": "0"
+      },
+      {
+        "id": "Composition.identifier.system",
+        "path": "Composition.identifier.system",
+        "fixedUri": "http://myvet.example.com/document-identifier"
+      },
+      {
+        "id": "Composition.identifier.period",
+        "path": "Composition.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "Composition.identifier.assigner",
+        "path": "Composition.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Composition.status",
+        "path": "Composition.status",
+        "fixedCode": "final"
+      },
+      {
+        "id": "Composition.type.coding.system",
+        "path": "Composition.type.coding.system",
+        "fixedUri": "http://loinc.org"
+      },
+      {
+        "id": "Composition.type.coding.version",
+        "path": "Composition.type.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Composition.type.coding.code",
+        "path": "Composition.type.coding.code",
+        "fixedCode": "18842-5"
+      },
+      {
+        "id": "Composition.type.coding.userSelected",
+        "path": "Composition.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Composition.type.text",
+        "path": "Composition.type.text",
+        "max": "0"
+      },
+      {
+        "id": "Composition.category",
+        "path": "Composition.category",
+        "min": 1
+      },
+      {
+        "id": "Composition.category.coding.system",
+        "path": "Composition.category.coding.system",
+        "fixedUri": "http://loinc.org"
+      },
+      {
+        "id": "Composition.category.coding.version",
+        "path": "Composition.category.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Composition.category.coding.code",
+        "path": "Composition.category.coding.code",
+        "fixedCode": "11503-0"
+      },
+      {
+        "id": "Composition.category.coding.display",
+        "path": "Composition.category.coding.display",
+        "fixedString": "Medical records"
+      },
+      {
+        "id": "Composition.category.coding.userSelected",
+        "path": "Composition.category.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Composition.category.text",
+        "path": "Composition.category.text",
+        "max": "0"
+      },
+      {
+        "id": "Composition.subject",
+        "path": "Composition.subject",
+        "min": 1
+      },
+      {
+        "id": "Composition.subject.type",
+        "path": "Composition.subject.type",
+        "max": "0"
+      },
+      {
+        "id": "Composition.subject.identifier",
+        "path": "Composition.subject.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Composition.subject.display",
+        "path": "Composition.subject.display",
+        "max": "0"
+      },
+      {
+        "id": "Composition.encounter",
+        "path": "Composition.encounter",
+        "max": "0"
+      },
+      {
+        "id": "Composition.author.type",
+        "path": "Composition.author.type",
+        "max": "0"
+      },
+      {
+        "id": "Composition.author.identifier",
+        "path": "Composition.author.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Composition.author.display",
+        "path": "Composition.author.display",
+        "max": "0"
+      },
+      {
+        "id": "Composition.title",
+        "path": "Composition.title",
+        "fixedString": "HISTORIA CLÍNICA VETERINARIA"
+      },
+      {
+        "id": "Composition.confidentiality",
+        "path": "Composition.confidentiality",
+        "max": "0"
+      },
+      {
+        "id": "Composition.attester",
+        "path": "Composition.attester",
+        "max": "0"
+      },
+      {
+        "id": "Composition.relatesTo",
+        "path": "Composition.relatesTo",
+        "max": "0"
+      },
+      {
+        "id": "Composition.event",
+        "path": "Composition.event",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section",
+        "path": "Composition.section",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "title"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Composition.section.code",
+        "path": "Composition.section.code",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section.author",
+        "path": "Composition.section.author",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section.focus",
+        "path": "Composition.section.focus",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section.text",
+        "path": "Composition.section.text",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section.mode",
+        "path": "Composition.section.mode",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section.orderedBy",
+        "path": "Composition.section.orderedBy",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section.entry.type",
+        "path": "Composition.section.entry.type",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section.entry.identifier",
+        "path": "Composition.section.entry.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section.entry.display",
+        "path": "Composition.section.entry.display",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section.emptyReason",
+        "path": "Composition.section.emptyReason",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section.section",
+        "path": "Composition.section.section",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Datos_propietario",
+        "path": "Composition.section",
+        "sliceName": "Datos_propietario",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Datos_propietario.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Datos del propietario"
+      },
+      {
+        "id": "Composition.section:Resenia",
+        "path": "Composition.section",
+        "sliceName": "Resenia",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Resenia.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Reseña"
+      },
+      {
+        "id": "Composition.section:Resenia.entry",
+        "path": "Composition.section.entry",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Resource",
+              "https://example.org/fhir/StructureDefinition/PetWeight",
+              "https://example.org/fhir/StructureDefinition/PetTypeCoat",
+              "https://example.org/fhir/StructureDefinition/PetParticularSigns",
+              "https://example.org/fhir/StructureDefinition/PetZootechnicalPurpose",
+              "https://example.org/fhir/StructureDefinition/PetOrigin"
+            ],
+            "aggregation": [
+              "referenced"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Composition.section:Anamnesis",
+        "path": "Composition.section",
+        "sliceName": "Anamnesis",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Anamnesis.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Anamnesis"
+      },
+      {
+        "id": "Composition.section:Anamnesis.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Examen_fisico_general",
+        "path": "Composition.section",
+        "sliceName": "Examen_fisico_general",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Examen_fisico_general.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Examen físico general"
+      },
+      {
+        "id": "Composition.section:Examen_fisico_general.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Abordaje_diagnostico",
+        "path": "Composition.section",
+        "sliceName": "Abordaje_diagnostico",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Abordaje_diagnostico.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Abordaje diagnóstico"
+      },
+      {
+        "id": "Composition.section:Abordaje_diagnostico.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Examenes",
+        "path": "Composition.section",
+        "sliceName": "Examenes",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Examenes.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Exámenes complementarios y resultados"
+      },
+      {
+        "id": "Composition.section:Examenes.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Diagnostico_presuntivo_justificado",
+        "path": "Composition.section",
+        "sliceName": "Diagnostico_presuntivo_justificado",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Diagnostico_presuntivo_justificado.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Diagnóstico presuntivo y justificado"
+      },
+      {
+        "id": "Composition.section:Diagnostico_presuntivo_justificado.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Diagnostico_definitivo",
+        "path": "Composition.section",
+        "sliceName": "Diagnostico_definitivo",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Diagnostico_definitivo.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Diagnóstico definitivo"
+      },
+      {
+        "id": "Composition.section:Diagnostico_definitivo.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Plan_terapeutico",
+        "path": "Composition.section",
+        "sliceName": "Plan_terapeutico",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Plan_terapeutico.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Plan terapéutico"
+      },
+      {
+        "id": "Composition.section:Plan_terapeutico.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Pronostico",
+        "path": "Composition.section",
+        "sliceName": "Pronostico",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Pronostico.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Evolucion",
+        "path": "Composition.section",
+        "sliceName": "Evolucion",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Evolucion.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Evolución"
+      },
+      {
+        "id": "Composition.section:Evolucion.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Observaciones",
+        "path": "Composition.section",
+        "sliceName": "Observaciones",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Observaciones.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Observaciones"
+      },
+      {
+        "id": "Composition.section:Observaciones.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      },
+      {
+        "id": "Composition.section:Anexos",
+        "path": "Composition.section",
+        "sliceName": "Anexos",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Composition.section:Anexos.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "fixedString": "Anexos"
+      },
+      {
+        "id": "Composition.section:Anexos.entry",
+        "path": "Composition.section.entry",
+        "max": "0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{% raw %}<h4>Constraints</h4>
+<table class="list">
+<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
+<tr><td>cmp-1</td><td>error</td><td>Composition.section, Composition.section:Datos_propietario, Composition.section:Resenia, Composition.section:Anamnesis, Composition.section:Examen_fisico_general, Composition.section:Abordaje_diagnostico, Composition.section:Examenes, Composition.section:Diagnostico_presuntivo_justificado, Composition.section:Diagnostico_definitivo, Composition.section:Plan_terapeutico, Composition.section:Pronostico, Composition.section:Evolucion, Composition.section:Observaciones, Composition.section:Anexos</td><td>A section must contain at least one of text, entries, or sub-sections<br/>: text.exists() or entry.exists() or section.exists()</td><td></td></tr>
+<tr><td>cmp-2</td><td>error</td><td>Composition.section, Composition.section:Datos_propietario, Composition.section:Resenia, Composition.section:Anamnesis, Composition.section:Examen_fisico_general, Composition.section:Abordaje_diagnostico, Composition.section:Examenes, Composition.section:Diagnostico_presuntivo_justificado, Composition.section:Diagnostico_definitivo, Composition.section:Plan_terapeutico, Composition.section:Pronostico, Composition.section:Evolucion, Composition.section:Observaciones, Composition.section:Anexos</td><td>A section can only have an emptyReason if it is empty<br/>: emptyReason.empty() or entry.empty()</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td>**ALL** elements</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>error</td><td>**ALL** extensions</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+</table>
+{% endraw %}

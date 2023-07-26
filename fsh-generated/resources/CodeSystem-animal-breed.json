@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Animal_Breed",
+  "id": "animal-breed",
+  "description": "A code system for representing animal breeds.",
+  "url": "http://example.com/fhir/CodeSystem/animal-breed",
+  "concept": [
+    {
+      "code": "labrador-retriever",
+      "display": "Labrador Retriever",
+      "definition": "A medium-large breed of retriever gun dog."
+    },
+    {
+      "code": "siamese",
+      "display": "Siamese",
+      "definition": "A breed of domestic cat originating from Thailand."
+    },
+    {
+      "code": "persian",
+      "display": "Persian",
+      "definition": "A long-haired breed of cat with a distinctive round face."
+    },
+    {
+      "code": "poodle",
+      "display": "Poodle",
+      "definition": "A group of formal dog breeds, including Standard Poodle, Miniature Poodle, and Toy Poodle."
+    }
+  ],
+  "version": "1.0.0",
+  "publisher": "Your Organization",
+  "count": 4
+}

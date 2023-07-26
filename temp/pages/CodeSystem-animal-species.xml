@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="animal-species"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://example.com/fhir/CodeSystem/animal-species</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">canis-lupus-familiaris<a name="animal-species-canis-lupus-familiaris"> </a></td><td>Canis lupus familiaris</td></tr><tr><td style="white-space:nowrap">felis-catus<a name="animal-species-felis-catus"> </a></td><td>Felis catus</td></tr><tr><td style="white-space:nowrap">equus-caballus<a name="animal-species-equus-caballus"> </a></td><td>Equus caballus</td></tr><tr><td style="white-space:nowrap">bos-taurus<a name="animal-species-bos-taurus"> </a></td><td>Bos taurus</td></tr><tr><td style="white-space:nowrap">ovis-aries<a name="animal-species-ovis-aries"> </a></td><td>Ovis aries</td></tr><tr><td style="white-space:nowrap">sus-scrofa-domestica<a name="animal-species-sus-scrofa-domestica"> </a></td><td>Sus scrofa domestica</td></tr><tr><td style="white-space:nowrap">gallus-gallus-domesticus<a name="animal-species-gallus-gallus-domesticus"> </a></td><td>Gallus gallus domesticus</td></tr></table></div>
+  </text>
+  <url value="http://example.com/fhir/CodeSystem/animal-species"/>
+  <version value="0.1.0"/>
+  <name value="Animal_Species"/>
+  <status value="active"/>
+  <date value="2023-07-17T16:02:45-03:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="A code system for representing animal species."/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="canis-lupus-familiaris"/>
+    <display value="Canis lupus familiaris"/>
+    <property>
+      <code value="definition"/>
+      <valueString value="Domestic dog"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="felis-catus"/>
+    <display value="Felis catus"/>
+    <property>
+      <code value="definition"/>
+      <valueString value="Domestic cat"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="equus-caballus"/>
+    <display value="Equus caballus"/>
+    <property>
+      <code value="definition"/>
+      <valueString value="Horse"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="bos-taurus"/>
+    <display value="Bos taurus"/>
+    <property>
+      <code value="definition"/>
+      <valueString value="Cattle"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="ovis-aries"/>
+    <display value="Ovis aries"/>
+    <property>
+      <code value="definition"/>
+      <valueString value="Sheep"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="sus-scrofa-domestica"/>
+    <display value="Sus scrofa domestica"/>
+    <property>
+      <code value="definition"/>
+      <valueString value="Domestic pig"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="gallus-gallus-domesticus"/>
+    <display value="Gallus gallus domesticus"/>
+    <property>
+      <code value="definition"/>
+      <valueString value="Chicken"/>
+    </property>
+  </concept>
+</CodeSystem>

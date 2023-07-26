@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="animal-breed"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://example.com/fhir/CodeSystem/animal-breed</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">labrador-retriever<a name="animal-breed-labrador-retriever"> </a></td><td>Labrador Retriever</td><td>A medium-large breed of retriever gun dog.</td></tr><tr><td style="white-space:nowrap">siamese<a name="animal-breed-siamese"> </a></td><td>Siamese</td><td>A breed of domestic cat originating from Thailand.</td></tr><tr><td style="white-space:nowrap">persian<a name="animal-breed-persian"> </a></td><td>Persian</td><td>A long-haired breed of cat with a distinctive round face.</td></tr><tr><td style="white-space:nowrap">poodle<a name="animal-breed-poodle"> </a></td><td>Poodle</td><td>A group of formal dog breeds, including Standard Poodle, Miniature Poodle, and Toy Poodle.</td></tr></table></div>
+  </text>
+  <url value="http://example.com/fhir/CodeSystem/animal-breed"/>
+  <version value="0.1.0"/>
+  <name value="Animal_Breed"/>
+  <status value="active"/>
+  <date value="2023-07-17T16:02:45-03:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="A code system for representing animal breeds."/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="labrador-retriever"/>
+    <display value="Labrador Retriever"/>
+    <definition value="A medium-large breed of retriever gun dog."/>
+  </concept>
+  <concept>
+    <code value="siamese"/>
+    <display value="Siamese"/>
+    <definition value="A breed of domestic cat originating from Thailand."/>
+  </concept>
+  <concept>
+    <code value="persian"/>
+    <display value="Persian"/>
+    <definition value="A long-haired breed of cat with a distinctive round face."/>
+  </concept>
+  <concept>
+    <code value="poodle"/>
+    <display value="Poodle"/>
+    <definition value="A group of formal dog breeds, including Standard Poodle, Miniature Poodle, and Toy Poodle."/>
+  </concept>
+</CodeSystem>
